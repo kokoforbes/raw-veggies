@@ -82,7 +82,7 @@ const Navbar = () => {
 
       <div className='flex flex-col gap-12 w-full md:flex-row mt-8 container px-0'>
         <div className='flex-1 px-8 lg:px-16 max-w-[605px]'>
-          <h1 className='text-[64px] text-[#96E072] font-semibold leading-[60px]'>
+          <h1 className='text-5xl lg:text-[64px] text-[#96E072] font-semibold leading-[60px]'>
             Discover the Fresh Food Revolution
           </h1>
           <p className='text-[#E8FCCF] mt-4 '>
@@ -116,7 +116,7 @@ const Navbar = () => {
         </marquee>
       </div>
 
-      <div className='w-full p-4 lg:p-16'>
+      <div className='w-full px-4 lg:px-16  py-16 lg:py-32'>
         <Image src='/veg.png' alt='raw veggies' width={1280} height={499} />
       </div>
     </div>
