@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const ShowCase = () => {
   return (
-    <div className='min-h-[1038px] bg-[#E8FCCF] pt-8 relative px-4 lg:px-16'>
+    <div className='min-h-[1038px] bg-[#E8FCCF] pt-8 relative px-4 lg:px-16 flex flex-col items-center'>
       <h1 className='mx-auto max-w-[770px] text-[#D64933] text-5xl lg:text-[64px] leading-[56px] font-bold text-center'>
         Discover the Fresh Harvest Farms Difference
       </h1>
 
-      <div className='flex flex-col gap-8 md:flex-row mt-16 lg:mt-24'>
+      <div className='flex flex-col gap-8 md:flex-row mt-16 lg:mt-24 max-w-[1440px]'>
         <div>
           <h2 className='text-[#12664F] font-bold text-xl mb-2'>
             Uncompromising Quality:

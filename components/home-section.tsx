@@ -12,16 +12,15 @@ const Navbar = () => {
       <AnouncementBar />
 
       <div className='flex w-full h-[67px] items-center justify-between px-8 lg:px-16 container max-w-[1440px]'>
-        <Image
-          src='/brand.svg'
-          alt='raw veggies'
-          width={116}
-          height={44}
-          priority
-        />
-
-        <div className='hidden lg:flex items-center justify-between'>
-          <ul className='flex gap-6  text-sm text-white'>
+        <div className='flex items-center justify-between w-full'>
+          <Image
+            src='/brand.svg'
+            alt='raw veggies'
+            width={116}
+            height={44}
+            priority
+          />
+          <ul className='lg:flex gap-6  text-sm text-white hidden'>
             <li>
               <Link href='/'>Home</Link>
             </li>
@@ -41,7 +40,8 @@ const Navbar = () => {
               <Link href='/'>Contact Us</Link>
             </li>
           </ul>
-          <div>
+
+          <div className='hidden lg:flex'>
             <Button>Login</Button>
           </div>
         </div>
@@ -81,7 +81,7 @@ const Navbar = () => {
       </div>
 
       <div className='flex flex-col gap-y-12 w-full md:flex-row md:justify-between mt-8 max-w-[1440px] mx-auto'>
-        <div className='flex-1 px-8 lg:px-16 max-w-[605px] flex-1'>
+        <div className='flex-1 px-8 lg:px-16 max-w-[605px] mt-8'>
           <h1 className='text-5xl lg:text-[64px] text-[#96E072] font-semibold leading-[60px]'>
             Discover the Fresh Food Revolution
           </h1>
@@ -104,11 +104,12 @@ const Navbar = () => {
             alt='raw veggies'
             width={602}
             height={708}
+            className='lg:ml-auto'
           />
         </div>
       </div>
 
-      <div className='mt-16 lg:mt-32'>
+      <div className='mt-16 lg:mt-32 max-w-[1440px]'>
         <marquee width='100%' direction='left' height='179px'>
           <h1 className='text-[#96E072] text-9xl font-semibold'>
             Delivering Nature&apos;s Finest to Your Table
@@ -116,9 +117,13 @@ const Navbar = () => {
         </marquee>
       </div>
 
-      <div className='w-full px-4 lg:px-16  py-16 lg:py-32'>
-        <Image src='/veg.png' alt='raw veggies' width={1280} height={499} />
-      </div>
+      <Image
+        src='/veg.png'
+        alt='raw veggies'
+        width={1280}
+        height={499}
+        className='px-4 lg:px-16  py-16 lg:py-32'
+      />
     </div>
   );
 };
