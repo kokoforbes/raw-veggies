@@ -8,10 +8,10 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const Navbar = () => {
   return (
-    <div className='w-full relative bg-[#12664F]'>
+    <div className='w-full relative bg-[#12664F] flex flex-col items-center'>
       <AnouncementBar />
 
-      <div className='flex w-full h-[67px] items-center justify-between px-8 lg:px-16 container'>
+      <div className='flex w-full h-[67px] items-center justify-between px-8 lg:px-16 container max-w-[1440px]'>
         <Image
           src='/brand.svg'
           alt='raw veggies'
@@ -80,8 +80,8 @@ const Navbar = () => {
         </Sheet>
       </div>
 
-      <div className='flex flex-col gap-12 w-full md:flex-row mt-8 container px-0'>
-        <div className='flex-1 px-8 lg:px-16 max-w-[605px]'>
+      <div className='flex flex-col gap-y-12 w-full md:flex-row md:justify-between mt-8 max-w-[1440px] mx-auto'>
+        <div className='flex-1 px-8 lg:px-16 max-w-[605px] flex-1'>
           <h1 className='text-5xl lg:text-[64px] text-[#96E072] font-semibold leading-[60px]'>
             Discover the Fresh Food Revolution
           </h1>
@@ -98,7 +98,7 @@ const Navbar = () => {
             <Button className='bg-[#E8FCCF] text-dark'>Shop Now</Button>
           </div>
         </div>
-        <div className=''>
+        <div className='flex-1'>
           <Image
             src='/lettuce.png'
             alt='raw veggies'

@@ -8,7 +8,7 @@ const ShopSection = () => {
       <h1 className='text-[#96E072] text-5xl lg:text-[64px] font-bold text-center'>
         Shop
       </h1>
-      <div className='flex flex-col gap-8 md:flex-row px-4 lg:px-16 py-16'>
+      <div className='flex flex-col gap-8 md:flex-row px-4 lg:px-16 py-16 md:justify-center'>
         <Image src='/onion.png' alt='' width={400} height={444} />
 
         <Image src='/spinach.png' alt='' width={400} height={444} />
@@ -23,8 +23,8 @@ const ShopSection = () => {
           Here are a few testimonials from our satisfied customers:
         </p>
 
-        <div className='mt-16 mb-24 flex flex-col md:flex-row gap-6'>
-          <Card className='bg-[#E8FCCF] h-[369px] w-full md:w-[758px] flex flex-col justify-center items-center p-4 gap-4 rounded-2xl'>
+        <div className='mt-16 mb-24 flex flex-col md:flex-row gap-6 justify-center'>
+          <Card className='bg-[#E8FCCF]  w-full md:w-[758px] flex flex-col justify-center items-center p-4 gap-4 rounded-2xl'>
             <Image
               src='/quotes.svg'
               alt='quote'
@@ -50,7 +50,7 @@ const ShopSection = () => {
             <h1 className='text-[#12664F] font-medium text-3xl'>Sarah D.</h1>
           </Card>
 
-          <Card className='bg-[#E8FCCF] h-[369px] w-full md:w-[758px] flex flex-col justify-center items-center p-4 gap-4 rounded-2xl'>
+          <Card className='bg-[#E8FCCF] w-full md:w-[758px] flex flex-col justify-center items-center p-4 gap-4 rounded-2xl'>
             <Image
               src='/quotes.svg'
               alt='quote'
@@ -77,7 +77,7 @@ const ShopSection = () => {
             <h1 className='text-[#12664F] font-medium text-3xl'>John M.</h1>
           </Card>
 
-          <Card className='bg-[#E8FCCF] h-[369px] w-full md:w-[758px] flex flex-col justify-center items-center p-4 gap-4 rounded-2xl'>
+          <Card className='bg-[#E8FCCF]  w-full md:w-[758px] flex flex-col justify-center items-center p-4 gap-4 rounded-2xl'>
             <Image
               src='/quotes.svg'
               alt='quote'
