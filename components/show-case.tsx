@@ -7,7 +7,7 @@ const ShowCase = () => {
         Discover the Fresh Harvest Farms Difference
       </h1>
 
-      <div className='flex flex-col gap-8 md:flex-row mt-16 lg:mt-36'>
+      <div className='flex flex-col gap-8 md:flex-row mt-16 lg:mt-24'>
         <div>
           <h2 className='text-[#12664F] font-bold text-xl mb-2'>
             Uncompromising Quality:
