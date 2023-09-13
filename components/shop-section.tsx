@@ -5,7 +5,7 @@ import { Card } from "./ui/card";
 const ShopSection = () => {
   return (
     <div className='min-h-screen bg-[#12664F] pt-20'>
-      <h1 className='text-[#96E072] text-5xl lg:text-[64px] font-bold text-center'>
+      <h1 className='text-[#96E072] text-5xl lg:text-[64px] font-medium text-center'>
         Shop
       </h1>
       <div className='flex flex-col gap-8 md:flex-row px-4 lg:px-16 py-16 md:justify-center'>
@@ -16,10 +16,10 @@ const ShopSection = () => {
         <Image src='/tomatoes.png' alt='' width={400} height={444} />
       </div>
       <div>
-        <h1 className='text-[#96E072] text-5xl lg:text-[64px] font-bold text-center max-w-[470px] mx-auto'>
+        <h1 className='text-[#96E072] text-5xl lg:text-[64px] font-medium text-center max-w-[770px] mx-auto'>
           What People Are Saying About Us
         </h1>
-        <p className='text-center text-white mt-4'>
+        <p className='text-center text-white mt-6'>
           Here are a few testimonials from our satisfied customers:
         </p>
 
@@ -33,7 +33,7 @@ const ShopSection = () => {
               className='mx-auto'
             />
 
-            <p className='text-center max-w-[514px]'>
+            <p className='text-center max-w-[514px] font-normal text-lg'>
               FreshVeggieHub has completely transformed the way I eat and cook.
               The quality of their vegetables is unmatched, and it has made a
               noticeable difference in the taste and texture of my dishes.
@@ -59,7 +59,7 @@ const ShopSection = () => {
               className='mx-auto'
             />
 
-            <p className='text-center max-w-[514px]'>
+            <p className='text-center max-w-[514px] font-normal text-lg'>
               I love the convenience of FreshVeggieHub. As a working
               professional, I don&apos;t always have time to go grocery
               shopping. Their delivery service ensures that I have fresh
@@ -86,7 +86,7 @@ const ShopSection = () => {
               className='mx-auto'
             />
 
-            <p className='text-center max-w-[514px]'>
+            <p className='text-center max-w-[514px] font-normal text-lg'>
               FreshVeggieHub&apos;s commitment to sustainability aligns
               perfectly with my values. I feel good knowing that I am supporting
               local farmers and contributing to a more environmentally friendly
@@ -106,10 +106,10 @@ const ShopSection = () => {
         </div>
       </div>
       <div className='pb-20 flex flex-col items-center'>
-        <h1 className='text-[#96E072] text-5xl lg:text-[64px] font-bold text-center max-w-[470px] mx-auto'>
+        <h1 className='text-[#96E072] text-5xl lg:text-[64px] font-medium text-center max-w-[770px] mx-auto'>
           Join the Fresh Harvest Farms Family
         </h1>
-        <p className='text-[#E8FCCF] mt-8 max-w-[500px] mx-auto text-center'>
+        <p className='text-[#E8FCCF] mt-8 max-w-[500px] mx-auto text-center font-light text-lg'>
           Discover the pleasure of farm-fresh vegetables that are as good for
           the planet as they are for you. At Fresh Harvest Farms, we are more
           than just a supplier — we are a community of food enthusiasts,

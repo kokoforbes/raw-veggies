@@ -13,7 +13,7 @@ const SocialsSection = () => {
           className='mx-auto'
         />
 
-        <p className='mx-auto text-white max-w-[421px] mt-4 text-center'>
+        <p className='mx-auto text-white max-w-[421px] mt-4 text-center font-normal text-lg'>
           xperience the unparalleled taste and nutritional benefits of
           farm-fresh produce in every bite.
         </p>
@@ -26,22 +26,24 @@ const SocialsSection = () => {
               height={56}
               alt='instagram'
             />
-            <span className='text-white'>Instagram</span>
+            <span className='text-white text-normal text-2xl'>Instagram</span>
           </Link>
 
           <Link href='/' className='flex items-center gap-2'>
             <Image src='/linkedin.svg' width={56} height={56} alt='linkedin' />
-            <span className='text-white'>Linkedin</span>
+            <span className='text-white text-normal text-2xl'>Linkedin</span>
           </Link>
 
           <Link href='/' className='flex items-center gap-2'>
             <Image src='/facebook.svg' width={56} height={56} alt='facebook' />
-            <span className='text-white'>Facebook</span>
+            <span className='text-white text-normal text-2xl'>Facebook</span>
           </Link>
 
           <Link href='/' className='flex items-center gap-2'>
             <Image src='/envelope.svg' width={56} height={56} alt='email' />
-            <span className='text-white'>hello@freshveggies.com</span>
+            <span className='text-white text-normal text-2xl'>
+              hello@freshveggies.com
+            </span>
           </Link>
         </div>
       </div>

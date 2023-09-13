@@ -2,17 +2,17 @@ import Image from "next/image";
 
 const ShowCase = () => {
   return (
-    <div className='min-h-[1038px] bg-[#E8FCCF] pt-8 relative px-4 lg:px-16 flex flex-col items-center'>
-      <h1 className='mx-auto max-w-[770px] text-[#D64933] text-5xl lg:text-[64px] leading-[56px] font-bold text-center'>
+    <div className='min-h-[960px] bg-[#E8FCCF] pt-8 relative px-4 lg:px-16 flex flex-col items-center'>
+      <h2 className='mx-auto max-w-[770px] text-[#D64933] text-5xl lg:text-[64px] leading-[56px] font-bold text-center'>
         Discover the Fresh Harvest Farms Difference
-      </h1>
+      </h2>
 
       <div className='flex flex-col gap-8 md:flex-row mt-16 lg:mt-24 max-w-[1440px]'>
         <div>
           <h2 className='text-[#12664F] font-bold text-xl mb-2'>
             Uncompromising Quality:
           </h2>
-          <p className='text-black'>
+          <p className='text-black font-lg'>
             From the vibrant hues of our ripe tomatoes to the crisp freshness of
             our leafy greens, every vegetable we deliver reflects our commitment
             to excellence.
@@ -22,7 +22,7 @@ const ShowCase = () => {
           <h2 className='text-[#12664F] font-bold text-xl mb-2'>
             Farm-to-Table Freshness
           </h2>
-          <p>
+          <p className='text-black font-lg'>
             With Fresh Harvest Farms, you can enjoy the true taste of nature. We
             work directly with local farmers who share our dedication to
             sustainable agriculture and ethical practices.
@@ -32,7 +32,7 @@ const ShowCase = () => {
           <h2 className='text-[#12664F] font-bold text-xl mb-2'>
             Convenience at Your Fingertips
           </h2>
-          <p>
+          <p className='text-black font-lg'>
             We understand the demands of modern life. That&apos;s why we&apos;ve
             made it effortless for you to access our exceptional vegetables.
             Simply browse our online store, select your favorites, and leave the

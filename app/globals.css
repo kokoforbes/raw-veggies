@@ -8,6 +8,16 @@ body,
   height: 100%;
 }
 
+html,
+p,
+h2 {
+  font-family: var(--font-faro);
+}
+
+h1 {
+  font-family: var(--font-grotesk);
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

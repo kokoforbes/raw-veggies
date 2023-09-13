@@ -20,7 +20,7 @@ const Navbar = () => {
             height={44}
             priority
           />
-          <ul className='lg:flex gap-6  text-sm text-white hidden'>
+          <ul className='lg:flex gap-6  text-sm text-white hidden font-faro'>
             <li>
               <Link href='/'>Home</Link>
             </li>
@@ -111,7 +111,7 @@ const Navbar = () => {
 
       <div className='mt-16 lg:mt-32 max-w-[1440px]'>
         <marquee width='100%' direction='left' height='179px'>
-          <h1 className='text-[#96E072] text-9xl font-semibold'>
+          <h1 className='text-[#96E072] text-9xl font-semibold font-grotesk'>
             Delivering Nature&apos;s Finest to Your Table
           </h1>
         </marquee>

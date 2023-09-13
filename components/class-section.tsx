@@ -3,19 +3,19 @@ import { Card } from "./ui/card";
 
 const ClassSection = () => {
   return (
-    <div className='min-h-screen bg-[#12664F] pt-16 lg:pt-[120px]'>
-      <h1 className='text-[#E8FCCF] text-2xl lg:text-5xl font-bold text-center max-w-[940px] mx-auto '>
+    <div className='min-h-screen bg-[#12664F] pt-16 lg:pt-[160px]'>
+      <h2 className='text-[#E8FCCF] text-2xl lg:text-5xl font-bold text-center max-w-[940px] mx-auto '>
         Our vegetables are commonly classified into the following classes
-      </h1>
+      </h2>
 
       <div className='mt-12 flex flex-col gap-4 items-center'>
         <Card className='bg-[#96E072] p-4 lg:p-16 flex flex-col md:flex-row md:items-center max-w-[1280px] border-0'>
           <div className='max-w-[534px]'>
-            <h1 className='font-bold text-5xl lg:text-[64px] text-black'>
+            <h2 className='font-bold text-5xl lg:text-[64px] text-black'>
               Leafy Green Vegetables
-            </h1>
+            </h2>
 
-            <p className='font-light mt-6'>
+            <p className='font-light mt-6 text-lg'>
               Indulge in the vibrant and refreshing world of leafy green
               vegetables. From delicate spinach to crunchy kale, these
               nutrient-packed greens add a burst of freshness to your meals.
@@ -31,11 +31,11 @@ const ClassSection = () => {
 
         <Card className='bg-[#E8FCCF] p-4 lg:p-16 flex flex-col md:flex-row md:items-center max-w-[1280px] border-0'>
           <div className='max-w-[534px]'>
-            <h1 className='font-bold text-5xl lg:text-[64px] text-black'>
+            <h2 className='font-bold text-5xl lg:text-[64px] text-black'>
               Cruciferous Vegetables
-            </h1>
+            </h2>
 
-            <p className='font-light mt-6'>
+            <p className='font-light mt-6 text-lg'>
               Unlock a realm of robust flavors with our selection of cruciferous
               vegetables. From the versatile broccoli to the versatile
               cauliflower, these nutrient-dense vegetables are perfect for
@@ -56,11 +56,11 @@ const ClassSection = () => {
 
         <Card className='bg-[#D64933] p-4 lg:p-16 flex flex-col md:flex-row md:items-center max-w-[1280px] border-0'>
           <div className='max-w-[534px]'>
-            <h1 className='font-bold text-5xl lg:text-[64px] text-[#E8FCCF]'>
+            <h2 className='font-bold text-5xl lg:text-[64px] text-[#E8FCCF]'>
               Root Vegetables
-            </h1>
+            </h2>
 
-            <p className='font-light mt-6 text-[#E8FCCF]'>
+            <p className='font-light mt-6 text-[#E8FCCF] text-lg'>
               We are committed to providing you with the freshest vegetables
               possible. Our produce is carefully selected and harvested at the
               peak of ripeness to ensure optimal flavor, texture, and
@@ -75,11 +75,11 @@ const ClassSection = () => {
 
         <Card className='bg-[#FFFFFF] p-4 lg:p-16 flex flex-col md:flex-row md:items-center max-w-[1280px] border-0'>
           <div className='max-w-[534px]'>
-            <h1 className='font-bold text-5xl lg:text-[64px] text-[#12664F]'>
+            <h2 className='font-bold text-5xl lg:text-[64px] text-[#12664F]'>
               Gourd Vegetables
-            </h1>
+            </h2>
 
-            <p className='font-light mt-6 text-[#12664F]'>
+            <p className='font-light mt-6 text-[#12664F] text-lg'>
               We are committed to providing you with the freshest vegetables
               possible. Our produce is carefully selected and harvested at the
               peak of ripeness to ensure optimal flavor, texture, and
