@@ -1,5 +1,6 @@
 "use client";
 
+// @ts-ignore
 import Flickity from "react-flickity-component";
 
 import Image from "next/image";
