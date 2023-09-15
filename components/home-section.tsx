@@ -1,3 +1,4 @@
+import * as React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Menu } from "lucide-react";
@@ -109,12 +110,10 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className='mt-16 lg:mt-32 max-w-[1440px]'>
-        <marquee width='100%' direction='left' height='179px'>
-          <h1 className='text-[#96E072] text-9xl font-semibold font-grotesk'>
-            Delivering Nature&apos;s Finest to Your Table
-          </h1>
-        </marquee>
+      <div className='mt-16 lg:mt-32 max-w-[1440px]' id='marquee'>
+        <h1 className='text-[#96E072] text-9xl font-semibold font-grotesk'>
+          Delivering Nature&apos;s Finest to Your Table
+        </h1>
       </div>
 
       <Image
