@@ -9,7 +9,7 @@ const ClassSection = () => {
       </h2>
 
       <div className='mt-12 flex flex-col gap-4 items-center'>
-        <Card className='bg-[#96E072] p-4 lg:p-16 flex flex-col md:flex-row md:items-center max-w-[1280px] border-0 sticky -top-1/3'>
+        <Card className='bg-[#96E072] p-4 lg:p-16 flex flex-col md:flex-row md:items-center max-w-[1280px] border-0 sticky -top-1/4'>
           <div className='max-w-[534px]'>
             <h2 className='font-bold text-5xl lg:text-[64px] text-black'>
               Leafy Green Vegetables

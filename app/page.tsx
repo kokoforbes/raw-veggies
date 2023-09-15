@@ -6,7 +6,7 @@ import SocialsSection from "@/components/socials-section";
 
 export default function Home() {
   return (
-    <main className='min-h-screen w-full'>
+    <main className='min-h-screen w-full relative'>
       <HomeSection />
       <ShowCase />
       <ClassSection />

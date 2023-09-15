@@ -1,6 +1,20 @@
+"use client";
+
+import Flickity from "react-flickity-component";
+
 import Image from "next/image";
 import { Button } from "./ui/button";
 import { Card } from "./ui/card";
+
+const flickityOptions = {
+  initialIndex: 0,
+  freeScroll: true,
+  contain: true,
+  // disable previous & next buttons and dots
+  prevNextButtons: false,
+  pageDots: false,
+  autoPlay: 2000,
+};
 
 const ShopSection = () => {
   return (
@@ -23,86 +37,94 @@ const ShopSection = () => {
           Here are a few testimonials from our satisfied customers:
         </p>
 
-        <div className='mt-16 mb-24 flex flex-col md:flex-row gap-6 justify-center'>
-          <Card className='bg-[#E8FCCF]  w-full md:w-[758px] flex flex-col justify-center items-center p-4 gap-4 rounded-2xl'>
-            <Image
-              src='/quotes.svg'
-              alt='quote'
-              width={48}
-              height={48}
-              className='mx-auto'
-            />
+        <div className='mt-16 mb-24 flex justify-center w-full'>
+          <Flickity
+            className={"carousel w-full gap-6"} // default ''
+            elementType={"div"} // default 'div'
+            options={flickityOptions} // takes flickity options {}
+          >
+            <Card className='bg-[#E8FCCF]  w-full md:w-[758px] flex flex-col justify-center items-center p-4 gap-4 rounded-2xl mr-6'>
+              <Image
+                src='/quotes.svg'
+                alt='quote'
+                width={48}
+                height={48}
+                className='mx-auto'
+              />
 
-            <p className='text-center max-w-[514px] font-normal text-lg'>
-              FreshVeggieHub has completely transformed the way I eat and cook.
-              The quality of their vegetables is unmatched, and it has made a
-              noticeable difference in the taste and texture of my dishes.
-            </p>
+              <p className='text-center max-w-[514px] font-normal text-lg'>
+                FreshVeggieHub has completely transformed the way I eat and
+                cook. The quality of their vegetables is unmatched, and it has
+                made a noticeable difference in the taste and texture of my
+                dishes.
+              </p>
 
-            <Image
-              src='/sarah.png'
-              alt='image'
-              width={80}
-              height={80}
-              className='mx-auto rounded'
-            />
+              <Image
+                src='/sarah.png'
+                alt='image'
+                width={80}
+                height={80}
+                className='mx-auto rounded'
+              />
 
-            <h1 className='text-[#12664F] font-medium text-3xl'>Sarah D.</h1>
-          </Card>
+              <h1 className='text-[#12664F] font-medium text-3xl'>Sarah D.</h1>
+            </Card>
 
-          <Card className='bg-[#E8FCCF] w-full md:w-[758px] flex flex-col justify-center items-center p-4 gap-4 rounded-2xl'>
-            <Image
-              src='/quotes.svg'
-              alt='quote'
-              width={48}
-              height={48}
-              className='mx-auto'
-            />
+            <Card className='bg-[#E8FCCF] w-full md:w-[758px] flex flex-col justify-center items-center p-4 gap-4 rounded-2xl mr-6'>
+              <Image
+                src='/quotes.svg'
+                alt='quote'
+                width={48}
+                height={48}
+                className='mx-auto'
+              />
 
-            <p className='text-center max-w-[514px] font-normal text-lg'>
-              I love the convenience of FreshVeggieHub. As a working
-              professional, I don&apos;t always have time to go grocery
-              shopping. Their delivery service ensures that I have fresh
-              vegetables on hand whenever I need them.
-            </p>
+              <p className='text-center max-w-[514px] font-normal text-lg'>
+                I love the convenience of FreshVeggieHub. As a working
+                professional, I don&apos;t always have time to go grocery
+                shopping. Their delivery service ensures that I have fresh
+                vegetables on hand whenever I need them.
+              </p>
 
-            <Image
-              src='/john.png'
-              alt='image'
-              width={80}
-              height={80}
-              className='mx-auto rounded'
-            />
+              <Image
+                src='/john.png'
+                alt='image'
+                width={80}
+                height={80}
+                className='mx-auto rounded'
+              />
 
-            <h1 className='text-[#12664F] font-medium text-3xl'>John M.</h1>
-          </Card>
+              <h1 className='text-[#12664F] font-medium text-3xl'>John M.</h1>
+            </Card>
 
-          <Card className='bg-[#E8FCCF]  w-full md:w-[758px] flex flex-col justify-center items-center p-4 gap-4 rounded-2xl'>
-            <Image
-              src='/quotes.svg'
-              alt='quote'
-              width={48}
-              height={48}
-              className='mx-auto'
-            />
+            <Card className='bg-[#E8FCCF]  w-full md:w-[758px] flex flex-col justify-center items-center p-4 gap-4 rounded-2xl'>
+              <Image
+                src='/quotes.svg'
+                alt='quote'
+                width={48}
+                height={48}
+                className='mx-auto'
+              />
 
-            <p className='text-center max-w-[514px] font-normal text-lg'>
-              FreshVeggieHub&apos;s commitment to sustainability aligns
-              perfectly with my values. I feel good knowing that I am supporting
-              local farmers and contributing to a more environmentally friendly
-              food system while enjoying delicious and fresh vegetables.
-            </p>
+              <p className='text-center max-w-[514px] font-normal text-lg'>
+                FreshVeggieHub&apos;s commitment to sustainability aligns
+                perfectly with my values. I feel good knowing that I am
+                supporting local farmers and contributing to a more
+                environmentally friendly food system while enjoying delicious
+                and fresh vegetables.
+              </p>
 
-            <Image
-              src='/sarah.png'
-              alt='image'
-              width={80}
-              height={80}
-              className='mx-auto rounded'
-            />
+              <Image
+                src='/sarah.png'
+                alt='image'
+                width={80}
+                height={80}
+                className='mx-auto rounded'
+              />
 
-            <h1 className='text-[#12664F] font-medium text-3xl'>Emily R.</h1>
-          </Card>
+              <h1 className='text-[#12664F] font-medium text-3xl'>Emily R.</h1>
+            </Card>
+          </Flickity>
         </div>
       </div>
       <div className='pb-20 flex flex-col items-center'>

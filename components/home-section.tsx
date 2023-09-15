@@ -9,7 +9,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const Navbar = () => {
   return (
-    <div className='w-full relative bg-[#12664F] flex flex-col items-center'>
+    <div className='w-full bg-[#12664F] flex flex-col items-center'>
       <AnouncementBar />
 
       <div className='flex w-full h-[67px] items-center justify-between px-8 lg:px-16 container max-w-[1440px]'>
