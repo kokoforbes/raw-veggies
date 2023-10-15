@@ -44,7 +44,7 @@ const ShopSection = () => {
             elementType={"div"} // default 'div'
             options={flickityOptions} // takes flickity options {}
           >
-            <Card className='bg-[#E8FCCF]  w-full md:w-[758px] flex flex-col justify-center items-center p-4 gap-4 rounded-2xl mr-6'>
+            <Card className='bg-[#E8FCCF] w-4/5  md:w-[758px] flex flex-col justify-center items-center p-4 gap-4 rounded-2xl  mr-6'>
               <Image
                 src='/quotes.svg'
                 alt='quote'
@@ -71,7 +71,7 @@ const ShopSection = () => {
               <h1 className='text-[#12664F] font-medium text-3xl'>Sarah D.</h1>
             </Card>
 
-            <Card className='bg-[#E8FCCF] w-full md:w-[758px] flex flex-col justify-center items-center p-4 gap-4 rounded-2xl mr-6'>
+            <Card className='bg-[#E8FCCF] w-4/5 md:w-[758px] flex flex-col justify-center items-center p-4 gap-4 rounded-2xl mr-6'>
               <Image
                 src='/quotes.svg'
                 alt='quote'
@@ -98,7 +98,7 @@ const ShopSection = () => {
               <h1 className='text-[#12664F] font-medium text-3xl'>John M.</h1>
             </Card>
 
-            <Card className='bg-[#E8FCCF]  w-full md:w-[758px] flex flex-col justify-center items-center p-4 gap-4 rounded-2xl'>
+            <Card className='bg-[#E8FCCF]  w-4/5 md:w-[758px] flex flex-col justify-center items-center p-4 gap-4 rounded-2xl'>
               <Image
                 src='/quotes.svg'
                 alt='quote'

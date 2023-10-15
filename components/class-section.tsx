@@ -3,7 +3,7 @@ import { Card } from "./ui/card";
 
 const ClassSection = () => {
   return (
-    <div className='min-h-screen bg-[#12664F] pt-16 lg:pt-[160px]'>
+    <div className='min-h-screen bg-[#12664F] px-8 pt-16 lg:pt-[160px]'>
       <h2 className='text-[#E8FCCF] text-2xl lg:text-5xl font-bold text-center max-w-[940px] mx-auto '>
         Our vegetables are commonly classified into the following classes
       </h2>

@@ -110,8 +110,8 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className='mt-16 lg:mt-32 max-w-[1440px]' id='marquee'>
-        <h1 className='text-[#96E072] text-9xl font-semibold font-grotesk'>
+      <div className='mt-16 lg:mt-32 max-w-[1440px] overflow-hidden animate-infinite-scroll'>
+        <h1 className='text-[#96E072] text-9xl font-semibold font-grotesk  '>
           Delivering Nature&apos;s Finest to Your Table
         </h1>
       </div>
